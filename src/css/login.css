@@ -1,0 +1,30 @@
+.login-container {
+  @apply min-h-screen bg-indigo-500;
+}
+.left-panel {
+  @apply flex items-center justify-center;
+}
+.welcome-text {
+  @apply font-bold text-white text-5xl mb-4;
+}
+.description {
+  @apply text-yellow-200;
+}
+.right-panel {
+  @apply bg-light-50 flex items-center justify-center flex-col;
+}
+.form-title {
+  @apply font-bold text-3xl mb-4 text-gray-800;
+}
+.divider-wrapper {
+  @apply flex items-center justify-center my-5 text-gray-400;
+}
+.divider-line {
+  @apply h-[1px] w-16 bg-gray-200;
+}
+.login-form {
+  @apply w-[250px];
+}
+.login-button {
+  @apply w-[250px];
+}
